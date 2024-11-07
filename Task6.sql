@@ -1,0 +1,2 @@
+SELECT COUNT(OrderID) AS OrdersNumber FROM Orders  
+WHERE OrderDate BETWEEN '2023-11-01' AND '2023-11-31'
